@@ -37,6 +37,7 @@ En raison de leur taille (format `.keras` et `.h5`), les poids du modèle sont h
 
 ** lien :**
 * `jazz_weights.weights.h5`:( https://drive.google.com/file/d/1pcc-NUgzwNcMj7dPTjcN8pcLZ1X9V2-1/view?usp=sharing ) (Poids optimisés lors de l'entraînement)
+`mon_modele_jazz_metheny.keras`:( https://drive.google.com/file/d/1fjX04YB14zOB4ciE3cFkbWDznOj6dKD9/view?usp=sharing ) (Modèle complet exporté)
 
 ---
 
