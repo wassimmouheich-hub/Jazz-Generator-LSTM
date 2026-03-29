@@ -1,6 +1,6 @@
 # Jazz Improvisation AI Generator (LSTM)
 
-> **Projet de Deep Learning : Génération de séquences musicales mélodiques en utilisant des réseaux de neurones récurrents.**
+Projet de Deep Learning : Génération de séquences musicales mélodiques en utilisant des réseaux de neurones récurrents.**
 
 Ce projet explore la capacité des modèles **LSTM (Long Short-Term Memory)** à apprendre les structures complexes du Jazz (intervalles, rythmique, motifs) pour générer de nouvelles improvisations au format MIDI.
 
