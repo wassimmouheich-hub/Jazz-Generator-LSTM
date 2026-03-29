@@ -22,12 +22,12 @@ Les fichiers générés par l'IA sont disponibles à la racine du dépôt :
 * **Framework :** TensorFlow / Keras
 * **Architecture :** **LSTM** (Réseau de neurones récurrents). 
     * *Pourquoi ?* Contrairement à un réseau classique, le LSTM possède des "portes" (gates) qui lui permettent de retenir des informations sur le long terme, ce qui est essentiel pour la cohérence d'une mélodie.
-* **Traitement de Données :** Librairie `music21` pour convertir les fichiers MIDI en séquences numériques.
+* **Traitement de Données :** Librairie music21 pour convertir les fichiers MIDI en séquences numériques.
 
 ### Pipeline Technique :
 1. **Encodage :** Transformation des notes (C4, Eb3...) en entiers.
 2. **Séquençage :** Création de fenêtres glissantes (ex: 100 notes pour prédire la 101ème).
-3. **Entraînement :** Optimisation via l'algorithme `RMSprop` ou `Adam` pour minimiser la perte (loss).
+3. **Entraînement :** Optimisation via l'algorithme RMSprop ou Adam pour minimiser la perte (loss).
 
 ---
 
